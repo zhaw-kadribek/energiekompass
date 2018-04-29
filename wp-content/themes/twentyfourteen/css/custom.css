@@ -16,6 +16,7 @@
 
 #content{
 	margin-right: 0px;
+	margin-left:300px !important;
 }
 .hentry{
 	max-width:100% !important;
@@ -31,15 +32,25 @@
 
 .testClass > .fl-module-content{
 	margin: 0px !important;
-	margin-top: -100px !important;
+	margin-top: -135px !important;
+}
+
+#questionBox{
+	background-image: url("http://localhost/energiekompass/wp-content/uploads/2018/04/QuestionBackground.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: -24px;
+	height: 600px;
+	background-size: 100% 100%;
 }
 
 #testTest{
-	height: 500px;
-	background-image: url("http://localhost/energiekompass/wp-content/uploads/2018/04/solaranlage2.jpg");
+	background-image: url("http://localhost/energiekompass/wp-content/uploads/2018/04/QuestionBackground.jpg");
 	background-repeat: no-repeat;
-    background-size: 100%;
+	background-position: center;
 	margin-top: -24px;
+	height: 600px;
+	background-size: 100% 100%;
 }
 
 .site-header{
@@ -52,4 +63,106 @@
 
 .fl-row-fixed-width{
 	max-width:100% !important;
+}
+
+#page_1{
+	background-color: blue !important;
+}
+
+#secondary{
+	background-color: #3D444B !important;
+	border-right: 3px solid black !important;
+	display: none;
+}
+
+.header-main{
+	background-color: white !important;
+	border-bottom: 3px solid black !important;
+	height: 60px !important;
+}
+
+.site-title a {
+ color: black;
+}
+.site-title a {
+ color: black;
+}
+.site-title a:hover {
+ color: black;
+}
+.site-title a:active {
+ color: black;
+}
+.site-title a:visited {
+ color: black;
+}
+
+.fullWidthQuestion{
+	width: 100%;
+}
+
+.questionFullBox{
+	width: 60%;
+	float: left;
+	color: white;
+	padding-left: 80px;
+}
+
+.questionBox{
+	display: inline-block;
+	font-size: 40pt;
+	color: white;
+	font-weight: bold;
+	background-color: rgba(0,0,0,0.4);
+	padding: 10px 25px 10px 25px;
+	border-radius: 4px;	
+}
+
+.answerFullBox {
+	width: 40%;
+	float: left;
+	color: white;
+	height: 100%;
+}
+
+.answerBox{
+	margin-left: 150px;
+	margin-bottom: 20px;
+	width: 220px;
+	font-size: 40pt;
+	color: white;
+	font-weight: bold;
+	background-color: rgba(0,0,0,0.4);
+	padding: 10px 25px 10px 25px;
+	border-radius: 4px;
+}
+
+.site:before{
+	display: none !important;
+}
+
+#masthead{
+	display:none !important;
+}
+
+.site-main{
+	margin-top: 0px !important;
+}
+
+.responsive-menu-pro-open button#responsive-menu-pro-button{
+	display:none !important;
+}
+
+#responsive-menu-pro-container{
+	border-right: 2px solid black !important;
+	margin-top: 15px !important;
+}
+
+#responsive-menu-pro-title{
+	border-right: 1px solid black !important;
+}
+
+.responsive-menu-pro-item-link{
+	border-right: 1px solid black !important;
+
 }
